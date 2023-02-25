@@ -4,7 +4,7 @@ public class CandyGift {
     public static void main(String[] args) {
         /* Мы собираем подарок из конфет, он будет состоять из 4-х конфет. Ниже создаем 4 переменные классов
         ChocolateCandies, Lollipops, JellyCandies, GrillageCandies */
-        ChocolateCandies oneChocolateCandy = new ChocolateCandies();
+        ChocolateCandies oneChocolateCandy = new ChocolateCandies("Silver");
         Lollipops oneLollipop = new Lollipops();
         JellyCandies oneJellyCandy = new JellyCandies();
         GrillageCandies oneGrillageCandies = new GrillageCandies();
